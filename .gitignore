@@ -1,0 +1,29 @@
+
+#PCB history files
+#*.PcbDoc.Zip
+#Job history files
+#*.OutJob.Zip
+#Log files
+*.LOG
+#Preview schematic doc , preview directory, history directory
+*.$$$Preview
+*.SchDocPreviev
+__Previews/
+History/
+#CAMTastic aperture data
+*.apr
+#EXTREP file
+*.EXTREP
+#Report file, rep preview
+*.REP
+*.REPPreview
+#Aperture lib file
+*.APR_LIB
+#NC drill report file
+*.DRR
+#LDP file, ldp preview
+*.LDP
+*.LDPPreview
+#Status report
+Status Report.TXT
+
