@@ -1,29 +1,29 @@
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+# Format documentation: http://kicad-pcb.org/help/file-formats/
 
-#PCB history files
-#*.PcbDoc.Zip
-#Job history files
-#*.OutJob.Zip
-#Log files
-*.LOG
-#Preview schematic doc , preview directory, history directory
-*.$$$Preview
-*.SchDocPreviev
-__Previews/
-History/
-#CAMTastic aperture data
-*.apr
-#EXTREP file
-*.EXTREP
-#Report file, rep preview
-*.REP
-*.REPPreview
-#Aperture lib file
-*.APR_LIB
-#NC drill report file
-*.DRR
-#LDP file, ldp preview
-*.LDP
-*.LDPPreview
-#Status report
-Status Report.TXT
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
 
