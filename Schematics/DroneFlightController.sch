@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 31700 4650 5050 4950
+S 18550 3650 5900 25750
 U 6125577D
 F0 "FMU_MCU_STM32H7" 50
 F1 "fmu_mcu_stm32h753ii.sch" 50

@@ -1108,8 +1108,6 @@ Wire Wire Line
 Wire Wire Line
 	6300 2750 6150 2750
 Connection ~ 6150 2750
-Text Label 8800 3050 1    50   ~ 0
-VDDA
 $Comp
 L power:+3V3 #PWR?
 U 1 1 612C9957
@@ -1385,14 +1383,6 @@ Wire Wire Line
 	5450 4700 5450 4150
 Wire Wire Line
 	5450 4150 5600 4150
-Wire Wire Line
-	4600 4650 4450 4650
-Wire Wire Line
-	4600 4600 4600 4650
-Wire Wire Line
-	4650 4600 4600 4600
-Text Label 4650 4600 0    50   ~ 0
-VDDA
 $Comp
 L power:GND #PWR?
 U 1 1 612C99FF
@@ -1416,12 +1406,9 @@ F 3 "~" H 4300 4650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4600 4650 5350 4650
-Wire Wire Line
 	5350 4650 5350 4050
 Wire Wire Line
 	5350 4050 5600 4050
-Connection ~ 4600 4650
 Wire Wire Line
 	7550 3050 7600 3050
 Wire Wire Line
@@ -1430,4 +1417,49 @@ Wire Notes Line
 	15500 500  15500 2400
 Wire Notes Line
 	15500 2400 21500 2400
+Text Notes 5550 2400 0    50   ~ 0
+Recharge battery coin cell backup.
+Wire Wire Line
+	8700 3050 8700 2950
+Wire Wire Line
+	8700 2950 9100 2950
+Text Label 9100 2950 0    50   ~ 0
+USB_OTG_FS_VBUS
+Wire Wire Line
+	8800 3050 9100 3050
+Text Label 9100 3050 0    50   ~ 0
+VDDA
+Wire Wire Line
+	4450 4650 4700 4650
+$Comp
+L Device:R R2
+U 1 1 6155D132
+P 4700 4500
+F 0 "R2" H 4770 4546 50  0000 L CNN
+F 1 "47K" H 4770 4455 50  0000 L CNN
+F 2 "" V 4630 4500 50  0001 C CNN
+F 3 "~" H 4700 4500 50  0001 C CNN
+	1    4700 4500
+	1    0    0    -1  
+$EndComp
+Connection ~ 4700 4650
+Wire Wire Line
+	4700 4650 5350 4650
+Wire Wire Line
+	4700 4350 4700 4200
+Wire Wire Line
+	4700 4200 4350 4200
+Text Label 4350 4200 2    50   ~ 0
+VDDA
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61582EE4
+P 7600 1700
+F 0 "#PWR?" H 7600 1550 50  0001 C CNN
+F 1 "+3V3" H 7615 1873 50  0000 C CNN
+F 2 "" H 7600 1700 50  0001 C CNN
+F 3 "" H 7600 1700 50  0001 C CNN
+	1    7600 1700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
