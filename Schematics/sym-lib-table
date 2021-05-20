@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name SM10B-GHS-TB_LF__SN_)(type Legacy)(uri /home/rahulav/code/DroneFlightController/Libraries/SM10B-GHS-TB_LF__SN_.lib)(options "")(descr ""))
+  (lib (name ESD7104MUTAG)(type Legacy)(uri /home/rahulav/code/DroneFlightController/Libraries/ESD7104MUTAG.lib)(options "")(descr ""))
+)

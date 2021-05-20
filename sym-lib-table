@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ESD7104MUTAG)(type Legacy)(uri ${KIPRJMOD}/Libraries/ESD7104MUTAG.lib)(options "")(descr ""))
+)
