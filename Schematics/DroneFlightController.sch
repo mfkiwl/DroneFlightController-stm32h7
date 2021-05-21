@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr E 44000 34000
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title "PIXHAWK_V6X_FMU"
 Date "2021-05-17"
 Rev "0"
@@ -281,4 +281,10 @@ Wire Wire Line
 	25000 6350 25000 7450
 Wire Wire Line
 	25000 7450 26450 7450
+$Sheet
+S 10100 5700 1800 3850
+U 60B2FEE0
+F0 "POWERPATH_SELECTOR" 50
+F1 "powerpath_selector.sch" 50
+$EndSheet
 $EndSCHEMATC
