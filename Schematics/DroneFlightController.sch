@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr E 44000 34000
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title "PIXHAWK_V6X_FMU"
 Date "2021-05-17"
 Rev "0"
@@ -286,5 +286,11 @@ S 10100 5700 1800 3850
 U 60B2FEE0
 F0 "POWERPATH_SELECTOR" 50
 F1 "powerpath_selector.sch" 50
+$EndSheet
+$Sheet
+S 20450 15500 2000 1600
+U 60A72583
+F0 "BASE_MCU_STM32F100" 50
+F1 "base_mcu_stm32f100c8.sch" 50
 $EndSheet
 $EndSCHEMATC

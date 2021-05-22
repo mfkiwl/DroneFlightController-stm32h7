@@ -1,0 +1,3 @@
+[submodule "Reference Documents/Pixhawk Standards"]
+	path = Reference Documents/Pixhawk Standards
+	url = https://github.com/pixhawk/Pixhawk-Standards.git
